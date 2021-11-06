@@ -42,14 +42,14 @@ for pessoas in dicio['Pessoas'] :
     if pessoas['Gênero'] == "F" :
         if (altura >= 1.5) and (altura <= 1.55) :
             pessoas['Altura'] = 'Baixa'
-        elif (altura >= 1.56) and (altura <= 1.7) :
+        elif altura <= 1.7 :
             pessoas['Altura'] = 'Média'
         else :
             pessoas['Altura'] = 'Alta'
     else :
         if (altura >= 1.5) and (altura <= 1.60) :
             pessoas['Altura'] = 'Baixa'
-        elif (altura >= 1.61) and (altura <= 1.75) :
+        elif altura <= 1.75 :
             pessoas['Altura'] = 'Média'
         else :
             pessoas['Altura'] = 'Alta'
